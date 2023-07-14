@@ -1,0 +1,5 @@
+ignoreFiles:
+  - '**/*.js'
+  - '**/*.ts'
+rules:
+  media-feature-name-value-no-unknown: true
