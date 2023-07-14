@@ -7,11 +7,12 @@ export default defineConfig({
   plugins: [
     vue(), 
     
-    // checker({
-    //   stylelint: {
-    //     lintCommand: 'stylelint ./src/style.css --ignore-path .gitignore',
-    //   },
-    // })
+    // Comment me out to disable the error
+    checker({
+      stylelint: {
+        lintCommand: 'stylelint ./src/style.css',
+      },
+    })
 
-],
+  ],
 })
